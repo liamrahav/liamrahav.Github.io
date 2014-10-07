@@ -12,7 +12,7 @@ body {
     height: 100%;
     
     font-family: 'Raleway', sans-serif; 
-    background-color: #ecf0f1;
+    background-color: #E0EEEE;
     
     margin: 0;
     padding: 0;
@@ -26,13 +26,14 @@ h2{
 
 .title{
     width: 100%;
-    height: 95%;
+    height: 90%;
     display: table;
     background-image: url(https://i.imgur.com/Fe7jSy7.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    border-bottom: outset 10px #26466D;
 }
 
 .title h1{
@@ -42,6 +43,7 @@ h2{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: %
     
 }
 
@@ -56,4 +58,121 @@ h2{
 .myname{
     display: table-cell;
     vertical-align: middle;
+}
+
+.about h2{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+
+}
+.about h3{
+    padding-top: .25%;
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px
+    
+}
+.about a:link{
+    text-decoration: none;
+    color: #344152;
+}
+.about a:hover{
+    font-weight: bold;
+    color: #836FFF;
+}
+.about a:active{
+    font-weight: bold;
+    color: #836FFF;
+}
+.about a:visited{
+    text-decoration: none;
+}
+.about h4{
+    text-align: center;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: ;
+}
+.moreabout{
+  width: 33%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+.moreabout p{
+    padding: 0px;
+    text-align: center;
+    margin: 2px;
+    font-size: 20px
+        
+}
+.moreabout button{
+     display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding:5px;
+    background-color: #E0EEEE;
+    border: 5px solid #3498db;
+    color:#2980b9;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+.moreabout button:hover{
+    background-color:#3498db;
+    color: #fff;
+    left:-9999em; 
+    top:-9999em; 
+}
+.moreabout button:visited{
+    background-color: #2980b9;
+    color: #fff;
+    left:-9999em; 
+    top:-9999em; 
+}
+.manu {
+    color: #D00000 ;
+    font-weight: bold;
+}
+.reddit{
+    color: #ff4500;
+    font-weight: bold;
+}
+.davemustaine{
+    font-weight: bold;
+}
+.megadeth{
+    font-weight: bold;
+    color: #002800;
+}
+.contact{
+    
+    border-top: outset 10px #525C65;
+    height: 25%;
+    background-color: #2c3e50;
+    margin-top: 10%;
+}
+.contact h1{
+    text-align: center;
+    font-size: 85px;
+    color:#e74c3c;
+    padding-top: 1%;
+}
+i{
+    color:#e74c3c;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+i:hover{
+    font-weight: bold;
+    color: #c0392b;
 }
