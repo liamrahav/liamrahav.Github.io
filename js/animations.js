@@ -1,24 +1,12 @@
-var scrollY = 0;
-var distance = 875;
-var speed = 24;
-function autoScrollTo(el) {
-    var currentY = window.pageYOffset, targetY = document.getElementById(el).offsetTop, bodyHeight = document.body.offsetHeight, yPos = currentY + window.innerHeight, animator = setTimeout('autoScrollTo(\' ' + el + ' \')', speed);
-    if (yPos > bodyHeight) {
-        clearTimeout(animator);
-    } else {
-        if (currentY < targetY - distance) {
-            scrollY = currentY + distance;
-            window.scroll(0, scrollY);
-        } else {
-            clearTimeout(animator);
-        }
-    }
-                
-                
-}
-
 $(document).ready(function(){
-    $("#Scroller").click(function(){
-        autoScrollTo()  
+    $("#spoilerbutton").toggle(
+        function(){
+            $('#spoiler').fadeIn(500);
+        },
+        function(){
+            $('#spoiler').fadeOut(500);
     });
+});
+$(document).ready(function() {
+   $('#scroller').localScroll({duration:800});
 });
