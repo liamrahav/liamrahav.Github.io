@@ -216,13 +216,17 @@ transition: all 500ms ease;
     height: 25%;
     background-color: #2c3e50;
     margin-top: 15%;
-    padding: 0;
+    padding-top: 0;
+    margin: 0;
 }
 .contact h1{
     text-align: center;
     font-size: 85px;
     color:#e74c3c;
     padding-top: 1%;
+}
+.contact i{
+    margin-bottom: 2%;
 }
 i{
     color:#e74c3c;
@@ -238,6 +242,9 @@ i:hover{
     font-weight: bold;
     color: #c0392b;
 }
+.projects{
+    padding-bottom: 5%;
+}
 .projects h1{
     padding-top: 4%;
     text-align: center;
@@ -250,7 +257,7 @@ i:hover{
     font-size: 30px;
 }
 #spoiler{
-    display: none;
+    display: /*Add none here*/;
     margin-top: 10px; 
 }
 .projects a:link{
@@ -271,4 +278,8 @@ i:hover{
 #firsthead:hover{
     font-weight: 200;
     color: #000;
+}
+.bigwrapper{
+    background-color: #2c3e50;
+    padding-top: 
 }
