@@ -60,15 +60,21 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 100px;
-        margin-top: -1%;
+        margin-top: -3%;
 
 }
 .scrolldown i{
     color: #000;
     font-weight: 100;
+    font-size: 189px;
+-webkit-transition: all 500ms ease;
+-moz-transition: all 500ms ease;
+-ms-transition: all 500ms ease;
+-o-transition: all 500ms ease;
+transition: all 500ms ease;
 }
 .scrolldown i:hover{
-    font-weight: 100;
+    font-weight: bold;
     color: #000;
 }
 
@@ -210,7 +216,6 @@ h2{
     height: 25%;
     background-color: #2c3e50;
     margin-top: 15%;
-    margin-bottom: 0;
     padding: 0;
 }
 .contact h1{
