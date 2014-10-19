@@ -28,7 +28,7 @@ h2{
     width: 100%;
     height: 90%;
     display: table;
-    background-image: url(https://i.imgur.com/Fe7jSy7.jpg);
+    background-image: url(https://i.imgur.com/3NwPZKe.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -37,7 +37,9 @@ h2{
 }
 
 .title h1{
-    color: #88ACE0;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    padding-bottom: 0;
     font-size: 200px;
     font-weight: 300;
     text-align: center;
@@ -47,11 +49,11 @@ h2{
 }
 
 .title h2{
-    color: #88ACE0;
     font-size: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 6%;
 }
 .scrolldown{
     height: 10%;
@@ -74,6 +76,17 @@ h2{
     display: table-cell;
     vertical-align: middle;
 }
+.box{
+    height: 55%;
+    width: 65%;
+    background-color:rgba(189, 195, 199,0.8);   
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: rgba(189, 195, 199,0.8);
+}
+
 .about{
     padding-bottom: 3%;
 }
@@ -92,7 +105,6 @@ h2{
     text-align: center;
     font-size: 60px;
     font-weight: 200;
-
 }
 .about h3{
     padding-top: .25%;
