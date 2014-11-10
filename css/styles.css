@@ -17,6 +17,9 @@ body {
     margin: 0;
     padding: 0;
 }
+.pure-g [class *= "pure-u"] {
+     font-family: 'Raleway', sans-serif;
+}
 
 h1,
 h2{
@@ -248,10 +251,49 @@ i:hover{
 .projects h1{
     padding-top: 4%;
     text-align: center;
-     font-size: 60px;
+     font-size: 75px;
     font-weight: 200; 
+    padding-bottom: 2%;
 }
+.projects h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+    padding-top: 2%;
+    font-weight: bold;
+
+    
+}
+
+.projects h6{
+    font-size: 25px;
+}
+
+.bcagpa{
+    background-color: #e74c3c;
+        color: #E0EEEE;
+
+}
+
+.leftside{
+    padding-left: 10%;
+    width: 40%;
+    
+}
+.leftside h6{
+    padding;0;
+    margin: 0;
+
+}
+
+.rightside{
+    width: 40%;
+    padding-right: 10%;
+
+}
+
 .projects h3{
+    padding-top: 4%;
     text-align: center;
     font-weight: 100;
     font-size: 30px;
