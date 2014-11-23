@@ -89,6 +89,20 @@ em {
 	font-weight: 700;
 	font-style: normal;
 }
+.round {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+.round img {
+    display: block;
+/* Stretch 
+      height: 100%;
+      width: 100%; */
+min-width: 100%;
+min-height: 100%;
+}
 
 .container {
 	max-width: 750px;
@@ -300,6 +314,19 @@ em {
 
 	</style>
 
+
+
+<!-- =================================================================================================================================
+     ||                                                                                                                             ||
+     ||                                                              ABOVE:                                                         ||
+     ||                                                               CSS                                                           ||
+     ||                                                                                                                             ||
+     ||                                                              BELOW:                                                         ||
+     ||                                                               HTML                                                          ||
+     ||                                                                                                                             ||
+     ================================================================================================================================= -->
+
+
 	</head>
 	<body>
 
@@ -307,12 +334,17 @@ em {
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-9 col-sm-push-3">
+				    <div class= "topper">
+                        <div class="round">
+                            <img src="profile_picture.png">
+                        </div>
 					<h1>
 						Liam Rahav
 					</h1>
 					<h2>
 						Student, Hacker, Explorer
 					</h2>
+					</div>
 				</div>
 			</div>
 		</div>
