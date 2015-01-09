@@ -22,12 +22,24 @@ body {
 	margin: 0 0 80px;
 	color: #222;
 }
+#certifications a{
+    color: black;
+    
+}
+#certifications a:hover{
+    color: #F3AE4E;
+}
 b, strong, .area {
 font-weight: 400;
 color: #333;
 }
 a {
 	color: #2A94D6;
+    -webkit-transition: color 200ms ease;
+-moz-transition: color 200ms ease;
+-ms-transition: color 200ms ease;
+-o-transition: color 200ms ease;
+transition: color 200ms ease;
 }
 a:focus,
 a:hover {
@@ -655,10 +667,9 @@ min-height: 100%;
                                 <span><i class="fa fa-file-text-o"></i>  Certifications</span>
                             </h4>
                         </div>
-                        <ul class="keywords">
-                           <li>
-					<a style="color:black" href="http://certification.comptia.org/getCertified/certifications/a.aspx" target="_blank">Comptia A+</a></li>
-					<li><a style="color:black" href="http://www.sailingcertification.com/" target="_blank">U.S. Sailing</a></li>
+                        <ul class="keywords" id="certifications">
+                            <li><a href="http://certification.comptia.org/getCertified/certifications/a.aspx" target="_blank">Comptia A+</a></li>
+                            <li><a href="http://www.sailingcertification.com/" target="_blank">U.S. Sailing</a></li>
                         </ul>
                     </div>
                     
