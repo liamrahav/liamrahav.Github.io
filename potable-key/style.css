@@ -1,0 +1,31 @@
+div{
+    float: left;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.1{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(52, 152, 219,0.7);
+}
+.2{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(26, 188, 156,0.7);
+}
+.3{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(241, 196, 15,0.7);
+}
+.4{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(211, 84, 0,0.7);
+}
+.5{
+    height: 200px;
+    width: 200px;
+    background-color:rgba(192, 57, 43,0.7);
+}    
