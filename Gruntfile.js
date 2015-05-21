@@ -12,16 +12,29 @@ module.exports = function(grunt) {
 				}
 			},
 			
+			htmlmin: {
+				dist: {
+					options: {
+						removeComments: true,
+						collapseWhitespace:true
+					},
+					files: {
+						'index.html': '_index.html'
+					}
+				}
+			},
+			
 			watch: {
 				style: {
-					files: "css/**/*.scss",
-					tasks: ['sass']
+					files: ["css/**/*.scss", '*.html'],
+					tasks: ['sass', 'htmlmin']
 				}
 			}
 		});
 		
 		grunt.loadNpmTasks('grunt-contrib-watch');
 		grunt.loadNpmTasks('grunt-contrib-sass');
+		grunt.loadNpmTasks('grunt-contrib-htmlmin');
 		
-		grunt.registerTask('default', ['sass:compile', "watch"]);
+		grunt.registerTask('default', ['sass:compile', 'htmlmin',"watch"]);
 }
