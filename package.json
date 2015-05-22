@@ -1,7 +1,7 @@
 {
 	"name": "PersonalSiteIndex",
 	"version": "0.0.0",
-	"description": "Liam Rahav's personal website.",
+	"description": "Liam Rahav's personal website. This is the index site - contians links to all subdomains",
 	"repository": {
 		"type": "git",
 		"url": "http://github.com/liamrahav/liamrahav.github.io"
