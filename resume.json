@@ -35,7 +35,7 @@
             "studyType":"High School",
             "startDate":"2014-09-07",
             "endDate":"2018-06-25",
-            "gpa":"4.0",
+            "gpa":"3.975",
             "courses":[
                 "Intro to Java (Java)",
                 "Intermediate Java (Java)",
@@ -63,13 +63,7 @@
             "title":"Board of Education Scholarship",
             "date":"2014-06-24",
             "awarder":"Engelwood Cliffs BoE",
-            "summary":"Awarded by the Board of Education for writing the top essay in the Class of 2014"
-        },
-        {
-            "title":"Parent-Teacher Association Scholarship",
-            "date":"2014-06-24",
-            "awarder":"Englewood Cliffs PTA",
-            "summary":"Awarded by the Parent-Teacher Association for writing a winning essay and achieving academic excellence"
+            "summary":"Awarded by the Board of Education for being top in the Class of 2014"
         }
     ],
     "publications":[
@@ -82,7 +76,7 @@
             "keywords":[
                 "HTML",
                 "CSS",
-                "Javascript"
+                "Python"
             ]
         },
         {
@@ -91,8 +85,7 @@
             "keywords":[
                 "Python",
                 "Java",
-                "C#",
-                "Dart"
+                "Swift"
             ]
         },
         {
@@ -102,6 +95,7 @@
                 "Flask",
                 "Parse.com",
                 "Cocos2D-Python",
+                "Cocos2D-Swift",
                 "Git"
             ]
         },
