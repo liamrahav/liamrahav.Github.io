@@ -9,7 +9,7 @@ $lighter-gray: #F8F8F8;
 	padding: 0;
 	height: 85px;
 	padding-top: 2.5px;
-	padding-bottom: 7.5px;
+
 	
 	.inner-project {
 		width: 40%;
@@ -25,10 +25,34 @@ $lighter-gray: #F8F8F8;
 	font-size: 17px;
 }
 
+.no-push {
+		margin-left: 0 !important;
+}
+
+.side-link {
+	font-size: 18px;	
+	line-height: 27px;
+	vertical-align: text-top;
+	
+	&[href] {
+		margin-left: 10px;
+		
+	}
+	
+}
+
 .location {
 	color: $darker-gray;
 }
 
 .date {
 	color: $darker-gray;
+}
+
+.description {
+	color: $darker-gray;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
 }
