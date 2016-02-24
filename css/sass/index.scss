@@ -38,6 +38,10 @@ body{
 		width: 29%;
 		line-height: 1.9;
 		color: #333;
+        
+        @media screen and (max-width: 960px) {
+            width: 80%;
+        }
 	}
 	
 	.line{
@@ -54,5 +58,9 @@ body{
 		border-radius: 75px 75px 75px 75px;
 		margin-bottom: -5px;
 	}
+    
+    @media (max-width: 720px) {
+        width: 90%;
+    }
 }
 

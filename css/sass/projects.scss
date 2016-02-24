@@ -11,8 +11,9 @@ $lighter-gray: #F8F8F8;
 	height: 85px;
 	padding-top: 2.5px;
     
-    @media (max-width: 720px) {
+    @media (max-width: 960px) {
         padding-bottom: 20px;
+        width: 90%;
         
         p {
             padding-bottom: 30px;
@@ -22,8 +23,14 @@ $lighter-gray: #F8F8F8;
 	
 	.inner-project {
 		width: 40%;
+        
+        @media screen and (max-width: 960px) {
+            width: 100%;
+        }
 	}
 }
+
+
 
 .alternate {
 	background-color: $lighter-gray;
