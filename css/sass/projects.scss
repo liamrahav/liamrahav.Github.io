@@ -3,12 +3,21 @@ $darker-gray: #4D4D4D;
 $lighter-gray: #F8F8F8;
 
 .projects {
+    display: inline-block;
 	width: 80%;
 	text-align: left;
 	margin: 0;
 	padding: 0;
 	height: 85px;
 	padding-top: 2.5px;
+    
+    @media (max-width: 720px) {
+        padding-bottom: 20px;
+        
+        p {
+            padding-bottom: 30px;
+        }
+    }
 
 	
 	.inner-project {
