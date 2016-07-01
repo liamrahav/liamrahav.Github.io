@@ -30,10 +30,17 @@ hr {
 	}
 }
 
+.contact {
+	p {
+		margin: em(16px) auto em(64px) auto;
+		text-align: center;
+	}
+}
 .container {
 	width: 80%;
-	max-width: em(800px);
+	max-width: em(920px);
 	margin: 0 auto;
+	padding: 0 em(48px);
 
 	@media screen and (max-width: $bp-lg) {
 		width: 90%;

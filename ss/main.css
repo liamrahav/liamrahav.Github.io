@@ -404,10 +404,15 @@ hr {
     margin: 5em auto 1em auto;
     border-radius: 50%; }
 
+.contact p {
+  margin: 1em auto 4em auto;
+  text-align: center; }
+
 .container {
   width: 80%;
-  max-width: 50em;
-  margin: 0 auto; }
+  max-width: 57.5em;
+  margin: 0 auto;
+  padding: 0 3em; }
   @media screen and (max-width: 75em) {
     .container {
       width: 90%; } }
@@ -496,12 +501,13 @@ a {
     opacity: 0.66; }
   .project p {
     margin: 0.5em 0; }
-  @media screen and (max-width: 61.625em) {
+  @media screen and (max-width: 42.5em) {
     .project {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%; }
+      width: 100%;
+      padding: 0 !important; }
       .project:last-child {
         margin-right: 0; } }
 
