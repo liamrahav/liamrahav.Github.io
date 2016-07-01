@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Lora:400,700";
 html {
   box-sizing: border-box; }
 
@@ -459,7 +460,7 @@ footer {
       width: 100%; } }
 
 html {
-  font: 500 normal 100%/1.4 "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif; }
+  font: 400 normal 100%/1.4 "Lora", "Georgia", serif; }
   @media screen and (max-width: 100em) {
     html {
       font-size: 90%; } }
@@ -481,11 +482,10 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
-  font-weight: 800;
+  font-family: "Lora", "Georgia", serif;
+  font-weight: 700;
   line-height: 1.6;
-  color: #FFFFFF;
-  text-transform: uppercase; }
+  color: #FFFFFF; }
 
 h1 {
   font-size: 4em; }
@@ -505,90 +505,14 @@ p {
   max-width: 37.5em;
   margin: 0.625em 0;
   padding: 0;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
+  font-family: "Lora", "Georgia", serif;
   font-size: 1.5em;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.8; }
 
 a {
-  color: #262626;
-  text-decoration: none; }
-
-button {
-  vertical-align: top;
-  width: 17.5em;
-  height: 3.375em;
-  margin: 0 auto 0 0.25em;
-  padding: 0;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
-  font-size: 0.875em;
-  font-weight: 800;
-  letter-spacing: 0.5em;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #FFFFFF;
-  color: #262626;
-  border: 3px solid #FFFFFF;
-  outline: none;
-  -webkit-transition: all, 175ms;
-  -moz-transition: all, 175ms;
-  transition: all, 175ms; }
-  button:hover {
-    background-color: #262626;
-    color: #FFFFFF;
-    border: 3px solid #262626; }
-
-form {
-  margin: 5em auto 0 auto;
-  font-size: 1.125em; }
-  @media screen and (max-width: 42.5em) {
-    form button {
-      display: block;
-      width: 30em;
-      margin: 0.75em auto 0 auto; } }
-
-input {
-  vertical-align: top;
-  width: 30em;
-  height: 3.375em;
-  margin: 0 auto;
-  padding: 0 1.75em;
-  font-family: "brandon-grostesque", "futura-pt", "proxima-nova", sans-serif;
-  font-size: 0.875em;
-  font-weight: 800;
-  letter-spacing: 0.25em;
-  line-height: 3em;
-  text-align: left;
-  text-transform: uppercase;
-  background-color: #FFFFFF;
-  color: #262626;
-  border: 0.1875em solid #FFFFFF;
-  outline: none; }
-
-::-webkit-input-placeholder {
-  color: #777777; }
-
-:-moz-placeholder {
-  color: #777777; }
-
-::-moz-placeholder {
-  color: #777777; }
-
-:-ms-input-placeholder {
-  color: #777777; }
-
-.spam {
-  margin: 1em auto 0 auto;
-  letter-spacing: 0.125em;
-  opacity: 0.33; }
-
-.email-status {
-  margin: 0.75em auto 0 auto;
-  letter-spacing: 0.125em; }
-  .email-status.success {
-    color: #64B5F6; }
-  .email-status.failure {
-    color: #F06292; }
+  color: #333333;
+  text-decoration: underline; }
 
 .social {
   margin: 0 auto;
@@ -624,58 +548,5 @@ span.i-instagram {
 span.i-snapchat {
   background: url("../assets/social/snapchat.svg") no-repeat center center;
   background-size: contain; }
-
-.parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Chrome/Safari/Opera */
-  -khtml-user-select: none;
-  /* Konqueror */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  z-index: 0; }
-  .parallax h1#nyc {
-    position: absolute;
-    top: 0.5em;
-    right: 1.5em;
-    font-size: 8em;
-    letter-spacing: 0.15em;
-    line-height: 1;
-    text-align: right;
-    opacity: 0.09; }
-  .parallax h1#date {
-    position: absolute;
-    top: 1.125em;
-    right: 1.375em;
-    width: 100%;
-    font-size: 10.5625em;
-    letter-spacing: 0.125em;
-    line-height: 1;
-    text-align: right;
-    opacity: 0.03;
-    white-space: nowrap; }
-    @media screen and (max-width: 61.625em) {
-      .parallax h1#date {
-        display: none; } }
-  .parallax h1#year {
-    position: absolute;
-    left: 0.125em;
-    bottom: -0.5em;
-    font-size: 32em;
-    letter-spacing: 0.05em;
-    line-height: 1;
-    opacity: 0.04; }
 
 /*# sourceMappingURL=main.css.map */
