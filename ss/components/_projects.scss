@@ -1,5 +1,32 @@
 // start _projects.scss
 
+.projects {
+	@include row();
+}
 
+.project {
+	@include span-columns(6);
+	margin: em(24px) 0;
+
+	&:nth-child(even) {
+		padding: 0 em(24px) 0 0;
+	}
+
+	&:nth-child(odd) {
+		padding: 0 0 0 em(24px);
+	}
+
+	h4 {
+		opacity: 0.66;
+	}
+
+	p {
+		margin: em(8px) 0;
+	}
+
+	@media screen and (max-width: $bp-md) {
+		@include span-columns(12);
+	}
+}
 
 // end _projects.scss

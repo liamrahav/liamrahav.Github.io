@@ -449,7 +449,8 @@ h1 {
   text-align: center; }
 
 h2 {
-  font-size: 1.5em; }
+  font-size: 2em;
+  line-height: 1; }
 
 h3 {
   font-size: 1.125em; }
@@ -472,39 +473,55 @@ a {
   color: #333333;
   text-decoration: underline; }
 
-.social {
+.projects {
+  display: block; }
+  .projects::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.project {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin: 1.5em 0; }
+  .project:last-child {
+    margin-right: 0; }
+  .project:nth-child(even) {
+    padding: 0 1.5em 0 0; }
+  .project:nth-child(odd) {
+    padding: 0 0 0 1.5em; }
+  .project h4 {
+    opacity: 0.66; }
+  .project p {
+    margin: 0.5em 0; }
+  @media screen and (max-width: 61.625em) {
+    .project {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      .project:last-child {
+        margin-right: 0; } }
+
+.links {
   margin: 0 auto;
   padding: 0;
-  text-align: center;
   list-style: none; }
-  .social li {
-    display: inline-block; }
-    .social li span {
-      display: inline-block;
-      width: 1.5em;
-      height: 1.5em;
-      margin: 0 1em;
-      opacity: 0.66;
-      -webkit-transition: all, 175ms;
-      -moz-transition: all, 175ms;
-      transition: all, 175ms; }
-      .social li span:hover {
-        opacity: 0.66; }
+  .links li {
+    display: inline-block;
+    margin: 0 0.375em 0 0;
+    font-size: 1.5em;
+    opacity: 0.66;
+    -webkit-transition: all, 175ms;
+    -moz-transition: all, 175ms;
+    transition: all, 175ms; }
+    .links li:hover {
+      opacity: 1; }
 
-span.i-facebook {
-  background: url("../assets/social/facebook.svg") no-repeat center center;
-  background-size: contain; }
-
-span.i-twitter {
-  background: url("../assets/social/twitter.svg") no-repeat center center;
-  background-size: contain; }
-
-span.i-instagram {
-  background: url("../assets/social/instagram.svg") no-repeat center center;
-  background-size: contain; }
-
-span.i-snapchat {
-  background: url("../assets/social/snapchat.svg") no-repeat center center;
+span.i-github {
+  background: url("../assets/icons/github.svg") no-repeat center center;
   background-size: contain; }
 
 /*# sourceMappingURL=main.css.map */

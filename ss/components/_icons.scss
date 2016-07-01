@@ -1,48 +1,28 @@
 // start _social.scss
 
-.social {
+.links {
 	margin: 0 auto;
 	padding: 0;
 	
-	text-align: center;
 	list-style: none;
 
 	li {
 		display: inline-block;
+		margin: 0 em(6px) 0 0;
 
-		span {
-			display: inline-block;
-			width: em(24px);
-			height: em(24px);
-			margin: 0 em(16px);
+		font-size: em(24px);
+		opacity: 0.66;
 
-			opacity: 0.66;
-			@include transition(all, $animation-speed--default);
+		@include transition(all, $animation-speed--default);
 
-			&:hover {
-				opacity: 0.66;
-			}
+		&:hover {
+			opacity: 1;
 		}
 	}
 }
 
-span.i-facebook {
-	background: url('../assets/social/facebook.svg') no-repeat center center;
-	background-size: contain;
-}
-
-span.i-twitter {
-	background: url('../assets/social/twitter.svg') no-repeat center center;
-	background-size: contain;
-}
-
-span.i-instagram {
-	background: url('../assets/social/instagram.svg') no-repeat center center;
-	background-size: contain;
-}
-
-span.i-snapchat {
-	background: url('../assets/social/snapchat.svg') no-repeat center center;
+span.i-github {
+	background: url('../assets/icons/github.svg') no-repeat center center;
 	background-size: contain;
 }
 
