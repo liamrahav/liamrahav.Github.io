@@ -1,0 +1,111 @@
+// start _layout.scss
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	// Fallback
+	background-color: $color-vulcan--primary;
+
+	overflow: hidden;
+}
+
+.intro {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+	// Real deal
+	$overlay-blue: linear-gradient(rgba(1, 23, 58, 0.33), rgba(1, 23, 58, 0.33));
+	$overlay-black: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60));
+	$star: url('../assets/stars.jpeg') no-repeat center center;
+
+	@include background($overlay-blue, $overlay-black, $star);
+	background-size: contain, 100% 100%, 100% 100%, cover;
+
+	.content {
+		z-index: $z-index--intro;
+	}
+	
+	h1 {
+		margin: 0 -1.38em em(2px) auto;
+		letter-spacing: 1.38em;
+	}
+
+	h4 {
+		margin: 0 -0.66em em(16px) auto;
+		letter-spacing: 0.66em;
+		opacity: 0.66;
+	}
+
+	.logo {
+		@include vertical-center;
+
+		width: 80%;
+		height: auto;
+
+		text-align: center;
+		opacity: 0.05;
+
+		@media screen and (max-width: $bp-md) {
+			width: 90%;
+		}
+
+		@media screen and (max-width: $bp-sm) {
+			width: 95%;
+		}
+	}
+
+	@media screen and (max-width: $bp-sm) {
+		padding: 0 em(16px);
+
+		h1 {
+			margin: 0 -0.66em em(2px) auto;
+
+			font-size: em(48px);
+			letter-spacing: 0.66em;
+		}
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: em(48px);
+
+	width: 100%;
+	text-align: center;
+
+	ul.options {
+		margin: 0;
+		padding: 0;
+
+		li {
+			display: inline-block;
+			margin: em(8px) em(12px) 0 em(12px);
+
+			h4 {
+				letter-spacing: 0.125em;
+				opacity: 0.66;
+			}
+
+		}
+	}
+}
+
+.container {
+	width: 80%;
+	max-width: em(800px);
+	margin: 0 auto;
+
+	@media screen and (max-width: $bp-lg) {
+		width: 90%;
+	}
+
+	@media screen and (max-width: $bp-md) {
+		width: 100%;
+	}
+}
+
+// end _layout.scss

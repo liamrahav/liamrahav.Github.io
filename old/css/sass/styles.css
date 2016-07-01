@@ -1,0 +1,104 @@
+.projects {
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  height: 85px;
+  padding-top: 2.5px; }
+  @media (max-width: 960px) {
+    .projects {
+      padding-bottom: 20px;
+      width: 90%; }
+      .projects p {
+        padding-bottom: 30px; } }
+  .projects .inner-project {
+    width: 40%; }
+    @media screen and (max-width: 960px) {
+      .projects .inner-project {
+        width: 100%; } }
+
+.alternate {
+  background-color: #F8F8F8; }
+
+.at {
+  color: #7f8c8d;
+  font-size: 17px; }
+
+.no-push {
+  margin-left: 0 !important; }
+
+.side-link {
+  font-size: 18px;
+  line-height: 27px;
+  vertical-align: text-top; }
+  .side-link[href] {
+    margin-left: 10px; }
+
+.location {
+  color: #4D4D4D; }
+
+.date {
+  color: #4D4D4D; }
+
+.description {
+  color: #4D4D4D;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; }
+
+body {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  padding-top: 5%; }
+  body h2 {
+    font-size: 30px;
+    margin: 15px 0 5px 0;
+    font-weight: normal;
+    padding-bottom: 5px; }
+  body h3 {
+    font-size: 24px;
+    margin: 15px 0 5px 0;
+    font-weight: normal; }
+  body h4 {
+    font-size: 17px;
+    margin: 15px 0 5px 0;
+    font-weight: normal; }
+  body p {
+    text-align: left; }
+  body a {
+    color: #004B6B; }
+  body a:hover {
+    color: #6D4100; }
+  body .center {
+    margin-left: auto;
+    margin-right: auto; }
+  body .blurb {
+    width: 30%;
+    line-height: 1.9;
+    color: #333; }
+    @media screen and (max-width: 960px) {
+      body .blurb {
+        width: 80%; } }
+    body .blurb i {
+      color: #424242;
+      font-size: 1.25em; }
+  body .line {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #7f8c8d;
+    width: 30%; }
+  body .circular-profile-picture {
+    background-image: url(https://i.imgur.com/PuYjJeu.jpg);
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 75px 75px 75px 75px;
+    border-radius: 75px 75px 75px 75px;
+    margin-bottom: -5px; }
+  @media (max-width: 720px) {
+    body {
+      width: 90%; } }
+
+/*# sourceMappingURL=styles.css.map */

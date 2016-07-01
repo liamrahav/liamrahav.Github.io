@@ -1,0 +1,51 @@
+.projects {
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  height: 85px;
+  padding-top: 2.5px; }
+  @media (max-width: 960px) {
+    .projects {
+      padding-bottom: 20px;
+      width: 90%; }
+      .projects p {
+        padding-bottom: 30px; } }
+  .projects .inner-project {
+    width: 40%; }
+    @media screen and (max-width: 960px) {
+      .projects .inner-project {
+        width: 100%; } }
+
+.alternate {
+  background-color: #F8F8F8; }
+
+.at {
+  color: #7f8c8d;
+  font-size: 17px; }
+
+.no-push {
+  margin-left: 0 !important; }
+
+.side-link {
+  font-size: 18px;
+  line-height: 27px;
+  vertical-align: text-top; }
+  .side-link[href] {
+    margin-left: 10px; }
+
+.location {
+  color: #4D4D4D; }
+
+.date {
+  color: #4D4D4D; }
+
+.description {
+  color: #4D4D4D;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5; }
+
+/*# sourceMappingURL=projects.css.map */
